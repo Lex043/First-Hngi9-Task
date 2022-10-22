@@ -14,16 +14,14 @@ const Linktree = () => {
         {/* twitterid */}
         <p className="text-center mb-3">Lex_Feranmi</p>
 
+        {/* slack id */}
+        <p className="hidden">Lex043</p>
+
         {/* twitter link */}
         <button className="bg-[#eaecf0] py-5 rounded-md">
           <a href="https://twitter.com/Lex_Feranmi" target="_blank">
             Twitter Link
           </a>
-        </button>
-
-        {/* slack id */}
-        <button className="hidden bg-[#eaecf0] py-5 rounded-md">
-          <p>Lex043</p>
         </button>
 
         {/* btn__zuri */}
