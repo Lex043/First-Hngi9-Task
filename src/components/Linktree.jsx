@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import profile from "../assets/p16787843_i_h9_ab.jpg";
 import slack from "../assets/slack.png";
 import github from "../assets/github.png";
@@ -82,13 +83,13 @@ const Linktree = () => {
           Design Books
         </a>
 
-        <a
-          className="bg-[#eaecf0] py-5 rounded-md text-center font-bold"
+        <Link
+          to="/contact"
           id="contact"
-          href="/contact"
+          className="bg-[#eaecf0] py-5 rounded-md text-center font-bold"
         >
           Contact Me
-        </a>
+        </Link>
 
         <div className="flex justify-center gap-2 sm:gap-4 pt-4">
           <a href="https://slack.com" target="_blank">
