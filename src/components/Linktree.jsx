@@ -1,8 +1,6 @@
 import profile from "../assets/p16787843_i_h9_ab.jpg";
 import slack from "../assets/slack.png";
 import github from "../assets/github.png";
-import zuriLogo from "../assets/zuriLogo.svg";
-import I4GLogo from "../assets/I4G.png";
 import dots from "../assets/dots.svg";
 import icon from "../assets/icon.svg";
 
@@ -84,6 +82,14 @@ const Linktree = () => {
           Design Books
         </a>
 
+        <a
+          className="bg-[#eaecf0] py-5 rounded-md text-center font-bold"
+          id="contact"
+          href="/contact"
+        >
+          Contact Me
+        </a>
+
         <div className="flex justify-center gap-2 sm:gap-4 pt-4">
           <a href="https://slack.com" target="_blank">
             <img src={slack} alt="slack__logo" className="w-9 object-cover" />
@@ -93,14 +99,6 @@ const Linktree = () => {
             <img src={github} alt="github__logo" className="w-9 object-cover" />
           </a>
         </div>
-
-        <p className="border-t-2 mt-20"></p>
-
-        <footer className="sm:flex sm:items-center sm:justify-between">
-          <img src={zuriLogo} alt="" className="max-w-full" />
-          <p className="text-gray-500 my-2">HNG Internship 9 Frontend Task</p>
-          <img src={I4GLogo} alt="" className="max-w-full" />
-        </footer>
       </div>
     </section>
   );
